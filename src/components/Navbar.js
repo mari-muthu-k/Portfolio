@@ -68,14 +68,14 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/project"
+                as={"https://github.com/mari-muthu-k?tab=repositories"}
+                to="https://github.com/mari-muthu-k?tab=repositories"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Repos
               </Nav.Link>
             </Nav.Item>
 

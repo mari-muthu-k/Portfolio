@@ -62,9 +62,13 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={"https://github.com/mari-muthu-k?tab=repositories"}
+                // as={Link}
                 to="https://github.com/mari-muthu-k?tab=repositories"
-                onClick={() => updateExpanded(false)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  updateExpanded(false)
+                  window.location.href = 'https://github.com/mari-muthu-k?tab=repositories';
+                }}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}

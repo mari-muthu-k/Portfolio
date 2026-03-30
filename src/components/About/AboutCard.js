@@ -8,13 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, This is <span className="purple">Marimuthu Kaliraj </span>
+            Hi Everyone, This is <span className="purple">Mari </span>
             <br />
-              An Self-Taught software developer from <span className="purple"> Tamilnadu, India.</span>
+              A Software Engineer-3 at <span className="purple">Comcast (Freewheel)</span>, from <span className="purple">Tamilnadu, India.</span>
             <br />
-              With a passion for <span className="purple">innovation</span> and a desire to make a difference 
-              , I am constantly seeking out new ideas and approaches to drive business growth and achieve success.
-            <br/>
+              With 4+ years of experience in software development, ML & AI, and data science — led projects saving over <span className="purple">$60K annually</span> through automation and AI innovation.
+            <br /><br/>
+              Completed a <span className="purple">Post Graduate Certificate in ML & AI</span> from IIT Jodhpur.
+            <br/><br/>
             Apart from programming, some other activities that I love to do!
           </p>
           <ul>
@@ -36,9 +37,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Turning research into technologies that advance human progress!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Mari</footer>
         </blockquote>
       </Card.Body>
     </Card>

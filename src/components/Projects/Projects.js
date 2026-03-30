@@ -25,21 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="fwGPT – Agentic AI Assistant"
+              description="Led the growth of fwGPT from a simple AI FAQ bot into a powerful, organization-wide intelligent assistant at Comcast. Oversaw development of CIEC LLM, RAG pipelines, and agentic AI systems for automating manual tasks and improving operational efficiency."
+              ghLink="https://github.com/mari-muthu-k"
             />
           </Col>
 
@@ -47,10 +35,19 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Kafka Speed-Up Automation"
+              description="Engineered an intelligent Kafka throughput regulation engine for Comcast's largest ingestion pipeline processing 1.5B–4B rows of user data daily. Reduced SLA breaches by 90%, cut 95% of manual effort, and saved up to $60,000 annually. Research submitted to SN Computer Science (Springer)."
+              ghLink="https://github.com/mari-muthu-k"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="T2 App Store"
+              description="Pitched and led the development of a cross-platform App Store for Mac, Windows, and Linux at Comcast, enabling users to download, publish, and manage desktop applications organization-wide. Backend engineered with Node.js and Golang using S3 for binary storage."
+              ghLink="https://github.com/mari-muthu-k"
             />
           </Col>
 
@@ -58,21 +55,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Robotix – Autonomous Robot Control"
+              description="Led development of Robotix with Open-RMF, a research-driven platform for controlling and monitoring autonomous robots, adopted by the Singapore government. Built agentic software in Golang and Python integrated with ROS and ROS2 for seamless fleet communication."
+              ghLink="https://github.com/mari-muthu-k"
+              demoLink="https://open-rmf.org"
             />
           </Col>
 
@@ -80,11 +66,19 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Clenz AI – AI Skincare App"
+              description="Led the full lifecycle development of Clenz.ai, an AI-powered skincare app that analyzes facial skin and provides personalized recommendations. Trained YOLOv8 models for accurate skin condition detection, supervised 10+ team members for data annotation using Roboflow, and managed AWS infrastructure."
+              ghLink="https://github.com/mari-muthu-k"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="FormTheta – AI Form Builder"
+              description="Founded and led the development of FormTheta, an AI-generated form creation platform for surveys (similar to Typeform and SurveyMonkey). Built with ReactJS, Golang, and TypeScript, containerized with Docker and deployed on AWS."
+              ghLink="https://github.com/mari-muthu-k"
             />
           </Col>
         </Row>

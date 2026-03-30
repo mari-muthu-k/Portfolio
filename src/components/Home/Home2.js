@@ -18,30 +18,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Research-driven software engineer with{" "}
+              <b className="purple">4+ years</b> in software development,
+              machine learning, and data science.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              led projects that saved over{" "}
+              <b className="purple">$60K annually at Comcast</b> through
+              automation and AI innovation.
+              <br />
+              <br />
+              Completed <b className="purple">ML & AI</b> post-graduate
+              certificate from{" "}
               <i>
-                <b className="purple"> ReactJs,Python and Go. </b>
+                <b className="purple">IIT Jodhpur</b>
               </i>
               <br />
-              <br />
-                I'm on a mission to build something big that could be useful in the Saas, Aiaas & Raas indutry &nbsp;
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Go, python & Rust</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              <br/>
+              Passionate about building intelligent systems using{" "}
+              <b className="purple">Go, Python & AI/ML</b> and turning research
+              into technologies that advance human progress.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
